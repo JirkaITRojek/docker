@@ -1,0 +1,8 @@
+cd docker 
+docker ps
+docker stop
+docker exec -it xx /bin/bash
+flask fab create-admin
+docker build -t rojek .
+docker compose build
+docker compose up
